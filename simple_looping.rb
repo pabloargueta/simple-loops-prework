@@ -13,14 +13,9 @@ def loop_iterator(number_of_times)
     
   puts "Welcome to Flatiron School's Web Development Course!"
   
-  if number_of_times <= 0
-    return
-    
-  else
-    
-  loop_iterator(number_of_times - 1)
+  number_of_times -= 1
+  break if number_of_times == 0
   
-  end
   
   end
   
